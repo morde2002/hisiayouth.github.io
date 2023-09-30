@@ -209,7 +209,7 @@ header ul.nav li ul li a {
     text-transform: uppercase;
 }
 .navbar .nav > li > a {
-    color: #080808;
+    color: #3BA0F4;
     text-shadow: none;
     border: 1px solid rgba(255, 255, 255, 0) !important;
     padding: 30px 15px 8px;
@@ -255,11 +255,11 @@ header ul.nav li ul li ul {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #FFFFFF;
-    background: #020202;
+    background: #3BA0F4;
 }
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-    color: #080808;
+    color: #3BA0F4;
     background-color: transparent;
 }
 ul.nav li.dropdown a {
