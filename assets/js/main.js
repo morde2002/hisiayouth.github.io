@@ -223,3 +223,35 @@ document.addEventListener('DOMContentLoaded', () => {
   window.addEventListener('load', aosInit);
 
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const form = document.querySelector('form');
+  form.addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    const amount = document.getElementById('amount').value;
+    const paymentMethod = document.getElementById('paymentMethod').value;
+    const firstName = document.getElementById('firstName').value;
+    const lastName = document.getElementById('lastName').value;
+    const phoneNumber = document.getElementById('phoneNumber').value;
+    const country = document.getElementById('country').value;
+    const address = document.getElementById('address').value;
+    const city = document.getElementById('city').value;
+    const zipcode = document.getElementById('zipcode').value;
+
+    console.log({
+      amount,
+      paymentMethod,
+      firstName,
+      lastName,
+      phoneNumber,
+      country,
+      address,
+      city,
+      zipcode,
+    });
+
+    form.reset();
+  });
+});
